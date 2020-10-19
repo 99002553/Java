@@ -6,10 +6,10 @@ import java.util.List;
 public class SortDemo {
 
 	public static void main(String[] args){
-		Employee emp1=new Employee("Shilpa","Ballari",101);
-		Employee emp2=new Employee("Sahana","Bangalore",102);
-		Employee emp3=new Employee("Pooja","Mysore",103);
-		Employee emp4=new Employee("Aruna","Mumbai",104);
+		Employee emp1=new Employee("Sahana K","Ballari",201);
+		Employee emp2=new Employee("Seetha","Bangalore",202);
+		Employee emp3=new Employee("Vishnu K","Mysore",203);
+		Employee emp4=new Employee("Pandu","Pune",204);
 		ArrayList<Employee> employeeList=new ArrayList<>();
 		employeeList.add(emp1);
 		employeeList.add(emp2);
