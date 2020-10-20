@@ -12,9 +12,9 @@ public class Arraylist {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		List<employee> empList=new ArrayList<>();
-		empList.add(new employee("Sahana K","Ballari",30000.0));
-		empList.add(new employee("Seetha","Bangalore",33000.0));
-		empList.add(new employee("scott","Mysore",28000.0));
+		empList.add(new employee("Sahana K","Ballari",30000));
+		empList.add(new employee("Seetha","Bangalore",33000));
+		empList.add(new employee("scott","Mysore",28000));
 		Iterator<employee> it=empList.iterator();
 		System.out.println("using iterator");
 		while(it.hasNext())
