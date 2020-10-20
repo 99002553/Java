@@ -23,10 +23,10 @@ public class employee {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public double getSalary() {
+	public Integer getSalary() {
 		return salary;
 	}
-	public void setSalary(double salary) {
+	public void setSalary(Integer salary) {
 		this.salary = salary;
 	}
 	public String getCity() {
