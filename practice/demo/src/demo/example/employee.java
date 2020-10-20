@@ -2,7 +2,7 @@ package demo.example;
 
 public class employee {
 	private String name;
-	private double salary;
+	private Integer salary;
 	private String city;
 	
 	public employee() {
@@ -10,7 +10,7 @@ public class employee {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public employee(String name, String city,double salary) {
+	public employee(String name, String city,Integer salary) {
 		super();
 		this.name = name;
 		this.salary = salary;
